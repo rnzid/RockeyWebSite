@@ -56,9 +56,7 @@ namespace Rockys.Controllers
                     Text = i.Name,
                     Value = i.Id.ToString()
                 })
-
-
-        };
+            };
             if (id == null)
             {
                 //For Create
@@ -137,7 +135,12 @@ namespace Rockys.Controllers
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View();
+            productVM.CategorySelectList = _db.Category.Select(i => new SelectListItem
+            {
+                Text = i.Name,
+                Value = i.Id.ToString()
+            });
+            return View(productVM);
 
         }
 
