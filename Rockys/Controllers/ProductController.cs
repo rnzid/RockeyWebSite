@@ -28,51 +28,34 @@ namespace Rockys.Controllers
         }
 
         //Get-Create
-        public IActionResult Create()
+        public IActionResult Upsert(int? id)
         {
-
-            return View();
+            Product product = new Product();
+            if (id == null)
+            {
+                //For Create
+                return View(product);
+            }
+            else
+            {
+                //update
+                product = _db.Product.Find(id);
+                if (product == null)
+                {
+                    return NotFound();
+                }
+                return View(product);
+            }
         }
 
         //Post-Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Product obj)
+        public IActionResult Upsert(Product obj)
         {
             if (ModelState.IsValid)
             {
                 _db.Product.Add(obj);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(obj);
-
-        }
-
-
-        //Get-Edit
-        public IActionResult Edit(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            var obj = _db.Product.Find(id);
-            if (obj == null)
-            {
-                return NotFound();
-            }
-            return View(obj);
-        }
-
-        //Post-Edit
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit(Product obj)
-        {
-            if (ModelState.IsValid)
-            {
-                _db.Product.Update(obj);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
