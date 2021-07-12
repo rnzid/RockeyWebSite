@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Rockys.Data;
 using Rockys.Models;
+using Rockys.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,29 +32,41 @@ namespace Rockys.Controllers
         //Get-Create
         public IActionResult Upsert(int? id)
         {
-            IEnumerable<SelectListItem> CategoryDropDown = _db.Category.Select(i => new SelectListItem
+            /*IEnumerable<SelectListItem> CategoryDropDown = _db.Category.Select(i => new SelectListItem
             {
                 Text = i.Name,
                 Value = i.Id.ToString()
             });
 
-            ViewBag.CategoryDropDown = CategoryDropDown;
+            ViewBag.CategoryDropDown = CategoryDropDown;*/
 
-            Product product = new Product();
+            //Product product = new Product();
+
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategorySelectList = _db.Category.Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                })
+
+
+        };
             if (id == null)
             {
                 //For Create
-                return View(product);
+                return View(productVM);
             }
             else
             {
                 //update
-                product = _db.Product.Find(id);
-                if (product == null)
+                productVM.Product = _db.Product.Find(id);
+                if (productVM.Product == null)
                 {
                     return NotFound();
                 }
-                return View(product);
+                return View(productVM);
             }
         }
 
