@@ -10,6 +10,6 @@ namespace Rockys.Models
     public class ApplicationUser : IdentityUser
     {
       
-        public String FullName { get; set; }
+        public string FullName { get; set; }
     }
 }
