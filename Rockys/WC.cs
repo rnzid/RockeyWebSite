@@ -12,5 +12,7 @@ namespace Rockys
 
         public const string AdminRole = "Admin";
         public const string CustomerRole = "Customer";
+
+        public const string EmailAdmin = "dangolranjit77@gmail.com";
     }
 }
