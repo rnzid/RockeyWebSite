@@ -24,6 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Rockeys_Models\Rockys_Models.csproj" />
+    <ProjectReference Include="..\Rockys_DataAccess\Rockys_DataAccess.csproj" />
     <ProjectReference Include="..\Rockys_Utility\Rockys_Utility.csproj" />
   </ItemGroup>
 

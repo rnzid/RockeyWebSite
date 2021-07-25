@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\Rockys_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\Rockys_Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\Rockys_Models.AssemblyInfo.cs
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\Rockys_Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\bin\Debug\net5.0\Rockys_Models.deps.json
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\bin\Debug\net5.0\Rockys_Models.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\bin\Debug\net5.0\ref\Rockys_Models.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\bin\Debug\net5.0\Rockys_Models.pdb
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\Rockys_Models.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\Rockys_Models.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\ref\Rockys_Models.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockeys_Models\obj\Debug\net5.0\Rockys_Models.pdb

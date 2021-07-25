@@ -3,10 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
-using Rockys.Data;
-using Rockys.Models;
-using Rockys.Models.ViewModels;
-using Rockey_Utility;
+using Rockys_Models;
+using Rockys_Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -15,6 +13,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Rockys_Utility;
+using Rockys_DataAccess;
 
 namespace Rockys.Controllers
 {

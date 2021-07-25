@@ -355,7 +355,6 @@ C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.GeneratedMSBu
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.AssemblyInfo.cs
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.RazorAssemblyInfo.cache
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Rockys.RazorAssemblyInfo.cs
@@ -493,3 +492,9 @@ C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Mailjet.Client.dll
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfirmation.cshtml.g.cs
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_Utility.dll
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_Utility.pdb
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_Models.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_Models.pdb
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_DataAccess.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_DataAccess.pdb

@@ -21,13 +21,13 @@ using Rockys;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\user\Desktop\dotnet\Rockys\Rockys\Views\_ViewImports.cshtml"
-using Rockys.Models;
+using Rockys_Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b039cfac678fc117a64353293c2d2ee5ae46554e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3e66644bbbb5f77097969cb73cec3741e80cb0bc", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

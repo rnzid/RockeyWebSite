@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Rockys.Data;
-using Rockys.Models;
+using Rockys_DataAccess;
+using Rockys_Models;
 using Rockys_Utility;
 using System;
 using System.Collections.Generic;
