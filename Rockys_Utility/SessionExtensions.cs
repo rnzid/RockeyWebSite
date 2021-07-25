@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Rockys.Utility
+namespace Rockys_Utility
 {
     public static class SessionExtensions
     {

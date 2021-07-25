@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Rockys.Utility
+namespace Rockey_Utility
 {
     public class MailJetSettings
     {

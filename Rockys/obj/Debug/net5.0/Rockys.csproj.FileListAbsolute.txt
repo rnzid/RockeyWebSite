@@ -491,3 +491,5 @@ C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Razor\Views\Cart\Ind
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Mailjet.Client.dll
 C:\Users\user\Desktop\dotnet\Rockys\Rockys\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfirmation.cshtml.g.cs
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_Utility.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockys\bin\Debug\net5.0\Rockys_Utility.pdb

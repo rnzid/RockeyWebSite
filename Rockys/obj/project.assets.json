@@ -2789,6 +2789,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Rockys_Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Mailjet.Api": "2.0.2",
+          "Microsoft.AspNetCore.Identity.UI": "5.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Rockys_Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rockys_Utility.dll": {}
+        }
       }
     }
   },
@@ -9072,6 +9086,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Rockys_Utility/1.0.0": {
+      "type": "project",
+      "path": "../Rockys_Utility/Rockys_Utility.csproj",
+      "msbuildProject": "../Rockys_Utility/Rockys_Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9083,7 +9102,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.8",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
+      "Rockys_Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9116,7 +9136,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Desktop\\dotnet\\Rockys\\Rockys_Utility\\Rockys_Utility.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\dotnet\\Rockys\\Rockys_Utility\\Rockys_Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
