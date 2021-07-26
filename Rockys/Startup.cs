@@ -13,6 +13,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Rockys_DataAccess.Repository;
+using Rockys_DataAccess.Repository.IRepository;
 
 namespace Rockys
 {
@@ -43,6 +45,7 @@ namespace Rockys
                 Options.Cookie.HttpOnly = true;
                 Options.Cookie.IsEssential = true;
             });
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddControllersWithViews();
         }
 
