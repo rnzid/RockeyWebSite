@@ -16,3 +16,5 @@ C:\Users\user\Desktop\dotnet\Rockys\Rockys_DataAccess\obj\Debug\net5.0\Rockys_Da
 C:\Users\user\Desktop\dotnet\Rockys\Rockys_DataAccess\obj\Debug\net5.0\ref\Rockys_DataAccess.dll
 C:\Users\user\Desktop\dotnet\Rockys\Rockys_DataAccess\obj\Debug\net5.0\Rockys_DataAccess.pdb
 C:\Users\user\Desktop\dotnet\Rockys\Rockys_DataAccess\obj\Debug\net5.0\Rockys_DataAccess.genruntimeconfig.cache
+C:\Users\user\Desktop\dotnet\Rockys\Rockys_DataAccess\bin\Debug\net5.0\Rockys_Utility.dll
+C:\Users\user\Desktop\dotnet\Rockys\Rockys_DataAccess\bin\Debug\net5.0\Rockys_Utility.pdb

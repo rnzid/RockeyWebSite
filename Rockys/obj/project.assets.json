@@ -3252,7 +3252,8 @@
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
-          "Rockys_Models": "1.0.0"
+          "Rockys_Models": "1.0.0",
+          "Rockys_Utility": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Rockys_DataAccess.dll": {}
